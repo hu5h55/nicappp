@@ -37,10 +37,13 @@ while True:
         y_start = random.randint(9,15)
         x_len = 1
         y_len = 1
-
+d
         for y in range(y_start):
                 unicornhathd.set_pixel(x_start,y,255,255,255)
+                if (y-3 <= 0):
+                        unicornhathd.set_pixel(x_start,y,0,0,0)
                 unicornhathd.show()
+                
 
         matrixprint(max(x_start,0),x_len,max(y_start,0),y_len,r,g,b)
         unicornhathd.show()
