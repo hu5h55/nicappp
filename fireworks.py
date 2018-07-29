@@ -29,15 +29,14 @@ def matrixprint(x_start,width,y_start,height,r,g,b):
 
 while True:
         sleeptime = 0.075
-        r=random.randint(0,255)
-        g=random.randint(0,255)
-        b=random.randint(0,255)
+        r=255
+        g=0
+        b=0
 
         x_start = random.randint(0,15)
         y_start = random.randint(9,15)
         x_len = 1
         y_len = 1
-d
         for y in range(y_start):
                 unicornhathd.set_pixel(x_start,y,255,255,255)
                 if (y-3 <= 0):
