@@ -29,9 +29,9 @@ def matrixprint(x_start,width,y_start,height,r,g,b):
 
 while True:
         sleeptime = 0.075
-        r=255
-        g=0
-        b=0
+        r=random.randint(0,255)
+        g=random.randint(0,255)
+        b=random.randint(0,255)
 
         x_start = random.randint(0,15)
         y_start = random.randint(9,15)
